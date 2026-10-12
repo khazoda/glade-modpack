@@ -7,11 +7,12 @@ function Show-Menu {
     Write-Host "   Current Version: $version" -ForegroundColor Yellow
     Write-Host "==================================" -ForegroundColor Cyan
     Write-Host ""
-    Write-Host "1. Add Mod"
-    Write-Host "2. Remove Mod"
-    Write-Host "3. Set New Version"
-    Write-Host "4. Prepare Release"
-    Write-Host "5. Exit"
+    Write-Host "1. Set New Version"
+    Write-Host "2. Add Mod"
+    Write-Host "3. Remove Mod"
+    Write-Host "4. Update All Mods"
+    Write-Host "5. Prepare Release"
+    Write-Host "6. Exit"
     Write-Host ""
 }
 
@@ -139,13 +140,10 @@ function Set-Version {
     Read-Host "`nPress Enter to continue"
 }
 
-function Prepare-Release {
-    Write-Host "`nPrepare Release" -ForegroundColor Cyan
+function Update-All-Mods {
+    Write-Host "`nUpdate All Mods" -ForegroundColor Cyan
     
-    $version = (Select-String -Path .\pack.toml -Pattern 'version\s*=\s*"([^"]+)"').Matches.Groups[1].Value
-    Write-Host "Preparing release for version $version..." -ForegroundColor Yellow
-    
-    Write-Host "`nUpdating mods..."
+    Write-Host "Updating mods..."
     $updateOutput = packwiz update -a -y 2>&1 | Out-String
     Write-Host $updateOutput
     
@@ -162,6 +160,70 @@ function Prepare-Release {
     }
     
     packwiz refresh
+    Write-Host "`nMods updated and changelog updated!" -ForegroundColor Green
+    Read-Host "`nPress Enter to continue"
+}
+
+function Prepare-Release {
+    Write-Host "`nPrepare Release" -ForegroundColor Cyan
+    
+    $version = (Select-String -Path .\pack.toml -Pattern 'version\s*=\s*"([^"]+)"').Matches.Groups[1].Value
+    Write-Host "Preparing release for version $version..." -ForegroundColor Yellow
+    
+    packwiz refresh
+    
+    # Clean up empty sections in CHANGELOG.md
+    Write-Host "`nCleaning up changelog..."
+    $changelogLines = Get-Content "CHANGELOG.md"
+    $cleanedLines = @()
+    $skipSection = $false
+    $inCodeBlock = $false
+    $sectionLines = @()
+    
+    for ($i = 0; $i -lt $changelogLines.Count; $i++) {
+        $line = $changelogLines[$i]
+        
+        # Detect section headers
+        if ($line -match '^### (Added|Removed|Updated)$') {
+            $skipSection = $false
+            $sectionLines = @($line)
+            $inCodeBlock = $false
+            continue
+        }
+        
+        # Handle code blocks
+        if ($line -eq '```') {
+            if (-not $inCodeBlock) {
+                $inCodeBlock = $true
+                $sectionLines += $line
+            } else {
+                # Closing code block - check if empty
+                $sectionLines += $line
+                $codeContent = $sectionLines | Where-Object { $_ -ne '```' -and $_ -notmatch '^###' }
+                
+                if ($codeContent.Count -eq 0 -or ($codeContent -join '').Trim() -eq '') {
+                    # Empty section, skip it
+                    $skipSection = $true
+                } else {
+                    # Has content, keep it
+                    $cleanedLines += $sectionLines
+                }
+                
+                $sectionLines = @()
+                $inCodeBlock = $false
+            }
+            continue
+        }
+        
+        # Accumulate section lines
+        if ($sectionLines.Count -gt 0) {
+            $sectionLines += $line
+        } else {
+            $cleanedLines += $line
+        }
+    }
+    
+    $cleanedLines | Out-File "CHANGELOG.md" -Encoding utf8
     
     $NAME = (Select-String -Path .\pack.toml -Pattern 'name\s*=\s*"([^"]+)"').Matches.Groups[1].Value -replace ' ', '-'
     $MC_VERSION = (Select-String -Path .\pack.toml -Pattern 'minecraft\s*=\s*"([^"]+)"').Matches.Groups[1].Value
@@ -192,11 +254,12 @@ while ($true) {
     $choice = Read-Host "Select an option"
     
     switch ($choice) {
-        "1" { Add-Mod }
-        "2" { Remove-Mod }
-        "3" { Set-Version }
-        "4" { Prepare-Release }
-        "5" { 
+        "1" { Set-Version }
+        "2" { Add-Mod }
+        "3" { Remove-Mod }
+        "4" { Update-All-Mods }
+        "5" { Prepare-Release }
+        "6" { 
             Write-Host "`nExiting..." -ForegroundColor Green
             exit 
         }

@@ -1,0 +1,13 @@
+name = "Hidden Beacon HUD And Particles"
+filename = "hbhap-1.0.0+26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/vg7kg3aM/versions/nQsbAMrH/hbhap-1.0.0%2B26.1.jar"
+hash-format = "sha512"
+hash = "a7eea1dba51f284d2b4e685265d55a78cd136d7a560a65a4f0585a967e85dfc3571c76e2ccb89414ee98644af087fc175331ffedcbc594e574b7bc9639cff0ba"
+
+[update]
+[update.modrinth]
+mod-id = "vg7kg3aM"
+version = "nQsbAMrH"

@@ -1,0 +1,13 @@
+name = "Chat Animation [Smooth Chat]"
+filename = "chatanimation-fabric-1.3.4+mc26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DnNYdJsx/versions/JzERKvQK/chatanimation-fabric-1.3.4%2Bmc26.1.jar"
+hash-format = "sha512"
+hash = "078eb8c9e4099b34403a07c6c8c6519f32d664fcb27d2cdf7e2f1bf19a31d61920a7bd5355eac3fb1800c2dbca2d785f494f09a7463b76f65c4e508d33aa3833"
+
+[update]
+[update.modrinth]
+mod-id = "DnNYdJsx"
+version = "JzERKvQK"

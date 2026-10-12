@@ -1,13 +1,13 @@
 name = "Packed Packs"
-filename = "packed_packs-fabric-2.0.3+1.21.11-patch.1.jar"
+filename = "packed_packs-fabric-2.3.1+26.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/8Pq6Exn2/versions/ldEgNR2q/packed_packs-fabric-2.0.3%2B1.21.11-patch.1.jar"
+url = "https://cdn.modrinth.com/data/8Pq6Exn2/versions/UA28M0jK/packed_packs-fabric-2.3.1%2B26.1.jar"
 hash-format = "sha512"
-hash = "3969cae9a0f40087935f69db9bb9ad2209859ca06df03dd60398eb38383b4054ada9d717af7306113bf2c95e1bdfe20f1b59d5ab969a47113c339cbc1733a47a"
+hash = "2da2c891e64d9ee899746452ab408b59f1ceccfbc84408608b902ce19b0d236a248acf1fef57e79da6dc6e5ffcf0367b9c1970154746672ca6b59f93b23858b9"
 
 [update]
 [update.modrinth]
 mod-id = "8Pq6Exn2"
-version = "ldEgNR2q"
+version = "UA28M0jK"
