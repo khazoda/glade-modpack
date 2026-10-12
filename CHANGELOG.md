@@ -2,6 +2,10 @@
 
 ## [3.1.1] - 2026-10-12
 
+### Updated
+
+- bzl 1.0.1 -> 1.0.2
+
 ### Changes
 
 - downgraded sodium from 0.9.2 to 0.9.1

@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/bzl.pw.toml"
-hash = "f629bd9eb2c35a6c60463179f40c4bdb157cfc21a23513b670fad5e9722773a9"
+hash = "5b2a9b6fc2ea7de8ab752f58c6d10d6d48a1906017b17abd38cf6e5c6a04d5db"
 metafile = true
 
 [[files]]

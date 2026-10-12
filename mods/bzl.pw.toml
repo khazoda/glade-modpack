@@ -1,13 +1,13 @@
 name = "Better Zombie Leaders"
-filename = "betterzombieleaders-fabric-1.0.1+26.1.jar"
+filename = "betterzombieleaders-fabric-1.0.2+26.1.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/zDBsarpj/versions/cFG54tvv/betterzombieleaders-fabric-1.0.1%2B26.1.jar"
+url = "https://cdn.modrinth.com/data/zDBsarpj/versions/9sWyGt2g/betterzombieleaders-fabric-1.0.2%2B26.1.jar"
 hash-format = "sha512"
-hash = "3e994719e9adad2a5c4f4ea98be85618e60a11356df32ebb117450e9c79bc8cb3be9bebd32ef2266381282c81eb8b05a08e552fb1a4caac27636942b06989329"
+hash = "a7d4431fd64e00a2ca29a5f135b9e09e4e27273f74352ba81a8e838e2ed09c12060fc808bc514943925124f9bed4a4311006e4adc383716a47dd2341345074b8"
 
 [update]
 [update.modrinth]
 mod-id = "zDBsarpj"
-version = "cFG54tvv"
+version = "9sWyGt2g"
