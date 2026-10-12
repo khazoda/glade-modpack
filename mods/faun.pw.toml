@@ -1,13 +1,13 @@
 name = "faun"
-filename = "faun-2.0.1.jar"
+filename = "faun-2.0.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/1snF16kT/versions/tCIMMXOu/faun-2.0.1.jar"
+url = "https://cdn.modrinth.com/data/1snF16kT/versions/WPE37Oj1/faun-2.0.2.jar"
 hash-format = "sha512"
-hash = "1155c9077c10b4c91afd2757d76a6d2293b061b13ecb4ae4024c32e996343fd0cc2d8f26dc38e25d158309fadb30711e4b461b5b71c58d48b129e6ee3286ac2c"
+hash = "0c6249d8989a97ccc6814c0673aa5b3ed34fcfe4aae7b521d42c8405cd486c684df2321488990139788db40ac7b92cca9fb7760da46990080d60273ebac86131"
 
 [update]
 [update.modrinth]
 mod-id = "1snF16kT"
-version = "tCIMMXOu"
+version = "WPE37Oj1"

@@ -1,18 +1,47 @@
 ﻿# Changelog
 
 
+## [3.1.0] - 2026-10-12
+
+### Added
+```
+- Hidden Beacon HUD And Particles
+- Better Zombie Leaders
+```
 
 
+### Updated
+```
+- RAY's 3D Ladders: RAYs_3D_Ladders_v2.0.zip -> RAYs_3D_Ladders_v2.4.zip
+- Particle Rain: particlerain-4.0.0-beta.10+26.1-fabric.jar -> particlerain-4.0.2+26.1-fabric.jar
+- Sodium: sodium-fabric-0.8.12+mc26.1.2.jar -> sodium-fabric-0.9.2+mc26.1.2.jar
+- Complementary Shaders - Unbound: ComplementaryUnbound_r5.8.1.zip -> ComplementaryUnbound_r5.9.3.zip
+- Fast IP Ping: fast-ip-ping-v1.0.11-mc26.1.2.jar -> fast-ip-ping-v1.0.12-mc26.1.2.jar
+- voxy: voxy-0.2.16-beta.jar -> voxy-0.2.18-beta-26.1.2.jar
+- Balm: balm-fabric-26.1.2-26.1.2.10.jar -> balm-fabric-26.1.2-26.1.2.15.jar
+- Basic Weapons: basicweapons-fabric-2.4.0+26.1.jar -> basicweapons-fabric-2.4.2+26.1.jar
+- Inventory Essentials: inventoryessentials-fabric-26.1.2-26.1.2.4.jar -> inventoryessentials-fabric-26.1.2-26.1.2.7.jar
+- Picture Mode: picturemode-fabric-1.1.6+26.1.jar -> picturemode-fabric-1.1.7+26.1.jar
+- YetAnotherConfigLib (YACL): yet_another_config_lib_v3-3.9.6+26.1-fabric.jar -> yet_another_config_lib_v3-3.9.7+26.1-fabric.jar
+- Iris Shaders: iris-fabric-1.10.9+mc26.1.1.jar -> iris-fabric-1.11.4+mc26.1.2.jar
+- Fabric API: fabric-api-0.155.2+26.1.2.jar -> fabric-api-0.155.3+26.1.2.jar
+- Lightweight Inventory Sorting: lightweight-inventory-sorting-1.1.6+26.1.jar -> lightweight-inventory-sorting-1.1.7+26.1.jar
+- Simple Grass Flowers: Simple Grass Flowers v1.9.6.zip -> Simple Grass Flowers v2.0.0.zip
+- Chat Animation [Smooth Chat]: chatanimation-fabric-1.3.0+mc26.1.jar -> chatanimation-fabric-1.3.4+mc26.1.jar
+- Packed Packs: packed_packs-fabric-2.2.1+26.1.jar -> packed_packs-fabric-2.3.1+26.1.jar
+- Fabric Language Kotlin: fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar -> fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar
+- faun: faun-2.0.1.jar -> faun-2.0.2.jar
+- Longview: longview-1.2.2.jar -> longview-1.3.2.jar
+- Particle Interactions: eg_particle_interactions-0.10.1+26.1.2-fabric.jar -> eg_particle_interactions-0.10.2+26.1.2-fabric.jar
+- Sodium Extra: sodium-extra-fabric-0.8.7+mc26.1.1.jar -> sodium-extra-fabric-0.9.4+mc26.1.2.jar
+- Overgrown Moss Carpet: Overgrown Moss Carpet 3.1.zip -> Overgrown Moss Carpet 3.2.zip
+- KhazodaCore: khazodacore-fabric-1.0.3+26.1.jar -> khazodacore-fabric-1.0.4+26.1.jar
+- More Culling: moreculling-fabric-26.1.2-1.7.2.jar -> moreculling-fabric-26.1.2-1.7.3.jar
+- wind chimes: windchimes-fabric-1.1.1+26.1.jar -> windchimes-fabric-1.2.0+26.1.jar
+- Lithium: lithium-fabric-0.24.6+mc26.1.2.jar -> lithium-fabric-0.24.7+mc26.1.2.jar
+```
 
-
-
-
-
-
-
-
-
-
+---
 ## [3.0.1] - 2026-07-27
 
 ### Added
