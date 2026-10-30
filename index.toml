@@ -62,12 +62,12 @@ metafile = true
 
 [[files]]
 file = "mods/bronze.pw.toml"
-hash = "14a3f20a57f70f97800ceb124d0a36fdb242839c16fb86878c680af69a8cb0a6"
+hash = "ffb0f2cab553a6342b9be53b275871dd4f35c9c6b2ee20e8e03dbecd47ad396b"
 metafile = true
 
 [[files]]
 file = "mods/bzl.pw.toml"
-hash = "f629bd9eb2c35a6c60463179f40c4bdb157cfc21a23513b670fad5e9722773a9"
+hash = "5b2a9b6fc2ea7de8ab752f58c6d10d6d48a1906017b17abd38cf6e5c6a04d5db"
 metafile = true
 
 [[files]]
@@ -77,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatanimation.pw.toml"
-hash = "04a310d3cdc50b4c84eaa811a018b0dc90d59a9b2765260e1958b1ae83977763"
+hash = "efa0a27ad29581503ce5e1350205998635fcefed02216c1355aeadda6085071a"
 metafile = true
 
 [[files]]
@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "0ce45d33b7d9469f5fba9047a34daaee2d36ace08b4652ba1e32bb3e8c436d71"
+hash = "eda1d045482f2f78dc45b0471bf4960411328e78e97c8e8604679a68c93e1d79"
 metafile = true
 
 [[files]]
@@ -156,6 +156,11 @@ hash = "bd80aa8dda2441d94872b6153b608414e5b653c39a07b76d4570c0cf02f25c7c"
 metafile = true
 
 [[files]]
+file = "mods/leaflittercritters.pw.toml"
+hash = "7de4ea3a809a69a5350cbcef7812a1bd162491addcc9b9de080533ab2d871f13"
+metafile = true
+
+[[files]]
 file = "mods/lightweight-inventory-sorting.pw.toml"
 hash = "da2c179e1237ea6735823b63d13765772866ace91b6a721cc38db1def333d369"
 metafile = true
@@ -192,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
-hash = "9d19be63264914b6e631ea2e3212e7d96dc01facc39c2a6046394ab55cb45a1d"
+hash = "b440598b9f6d488220ff5ed9a10e0072ca44b38d6a93d89fd91a8772e592415c"
 metafile = true
 
 [[files]]
@@ -231,13 +236,8 @@ hash = "a4928ae39718823d42b27cd9985aee0cb0f063790ba461092bf8da69faab25b9"
 metafile = true
 
 [[files]]
-file = "mods/sodium-extra.pw.toml"
-hash = "734a061544bad93b004eb110f67de8e99651f2a0d97533101ce44dbe66b2b619"
-metafile = true
-
-[[files]]
 file = "mods/sodium.pw.toml"
-hash = "ee002e5d6ad62150afe62bf8a6f254f56630e2ae9d414131f89cf2676664a493"
+hash = "c75f5e9a285cf6195065ba85e73081990f990de6efc7e2262a6eafe12d3dc277"
 metafile = true
 
 [[files]]
