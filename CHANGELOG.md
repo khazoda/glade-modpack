@@ -1,19 +1,28 @@
 ﻿# Changelog
 
-## [3.1.1] - 2026-10-12
+## [3.2.0] - 2026-10-30
+
+### Added
+
+```
+- Hidden Beacon HUD And Particles
+- Better Zombie Leaders
+- Leaf Litter Critters
+```
+
 
 ### Updated
 
-- bzl 1.0.1 -> 1.0.2
-
-### Changes
-
-- downgraded sodium from 0.9.2 to 0.9.1
-- updated fabric loader from 0.19.3 to 0.19.5
+```
+- Chat Animation [Smooth Chat]: chatanimation-fabric-1.3.4+mc26.1.jar -> chatanimation-fabric-1.3.5+mc26.1.jar
+- Ok Zoomer: ok_zoomer-17.0.0-beta.5.jar -> ok_zoomer-17.0.0-beta.6.jar
+- Cubes Without Borders: cwb-4.1.0+26.1.jar -> cwb-5.0.0+26.1.jar
+- Bronze: bronze-fabric-2.2.2+26.1.jar -> bronze-fabric-2.3.0+26.1.jar
+```
 
 ---
 
-## [3.1.0] - 2026-10-12
+## [3.1.1] - 2026-10-12
 
 ### Added
 

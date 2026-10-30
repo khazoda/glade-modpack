@@ -1,0 +1,13 @@
+name = "Leaf Litter Critters"
+filename = "llc-1.2.0+26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/whcoHyco/versions/i9oosOYO/llc-1.2.0%2B26.1.jar"
+hash-format = "sha512"
+hash = "36ef38724977d10fbbf9c6e8c45a2eaa5e9926b8bf2d7d8e44ac88869fd9eeb175b8edd44422719b2b00d969a07ad2e778355f48b4166e64abc0b20e097b0946"
+
+[update]
+[update.modrinth]
+mod-id = "whcoHyco"
+version = "i9oosOYO"
